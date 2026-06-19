@@ -34,6 +34,8 @@ Resultado: La aplicación devuelve únicamente los datos del usuario solicitado.
 Para saltarte la seguridad y extraer toda la base de datos, usa:
 http://localhost:5001/buscar?nombre=' OR '1'='1
 Resultado: La consulta SQL se altera para evaluar una condición siempre verdadera ('1'='1'), lo que fuerza al sistema a mostrar todos los registros de la tabla, exponiendo información confidencial.
+como se ve a continuvación: <img width="959" height="113" alt="Captura de pantalla 2026-06-19 131717" src="https://github.com/user-attachments/assets/cb62f232-4d89-43f0-84ba-bff673a266ad" />
+
 
 ## 3. Análisis de la Vulnerabilidad
 
